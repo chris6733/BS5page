@@ -1,0 +1,239 @@
+$yellow: #FFDF65;
+
+*{
+  font-family: 'Noto Sans TC','Baloo Tamma 2', cursive, sans-serif;
+}
+
+.btn.btn-yellow{
+    background-color: $yellow ;
+    color: #636057 ;
+   }
+.progress-bar.bg-yellow{
+    background-color: $yellow ;
+}
+
+.border-3.border-yellow{
+  border-left: 3px solid $yellow;
+}
+
+.highlight-text{
+  color: $yellow;
+}
+
+.navbar{
+    &.border-bottom-yellow{
+    border-bottom: 5px solid $yellow ;
+  }
+  
+    .logo img{
+    width: 111px;
+    height: 40px;
+    }
+  
+   .btn{
+    width: 96px;
+    height: 38px;
+    margin-right: 10px;
+    }
+  
+  .btn-yellow{
+    background-color: $yellow ;
+   }
+}
+
+
+.modal{
+   .modal-header{
+    border-top: 4px solid $yellow ;
+   }
+  
+   .btn.btn-yellow{
+    background-color: $yellow ;
+   }
+  
+   input{
+    background-color: #F7F7F7;
+    border: none;
+   }
+  
+   .footer::before{
+    content:'—————————';
+    color: #ddd;
+   }
+  
+   .footer::after{
+    content:'—————————';
+    color: #ddd;
+  }
+}
+
+
+.nav{
+  
+  .nav-item{
+      padding: 20px 0;
+      
+      .active{
+        border-bottom: 3px solid $yellow;
+      }   
+  }
+}
+
+
+form{
+  position: relative;
+  
+  select.form-select{
+    background-color: #F7F7F7;
+    border: none;
+    color: #999999;
+  }
+  
+  input.form-control{
+    background-color: #F7F7F7;
+    border: none;
+    color: #999999;
+  }
+  h3{
+    padding: 6px;
+    font-size: 24px;
+  }
+  span.bar{
+    width: 40%;
+    height: 3px;
+    background-color: $yellow;
+    position: absolute;
+    top: 105px;
+    left: 0;
+  }
+    span.bar2{
+    width: 40%;
+    height: 3px;
+    background-color: $yellow;
+    position: absolute;
+    top: 105px;
+    right: 0;
+  }
+   span.barmobile{
+    width: 35%;
+    height: 3px;
+    background-color: $yellow;
+    position: absolute;
+    top: 35px;
+    left: 0;
+  }
+    span.barmobile2{
+    width: 35%;
+    height: 3px;
+    background-color: $yellow;
+    position: absolute;
+    top: 35px;
+    right: 0;
+  }
+}
+
+.right-title{
+  color: #494846;
+  font-size: 20px;
+  font-weight: bold;
+  border-left: 4px solid $yellow;
+  border-right: 4px solid $yellow;
+}
+
+.card{
+  width: 100%;
+  border-radius: 20px;
+  .card-title{
+    img{
+      border: 3px solid $yellow;
+    }
+    h2{
+      font-size: 20px;
+      color: #494846;
+    }
+    h3{
+      font-size: 16px;
+      color: #373A3C;
+    }
+  }
+  .card-content{
+    color: #373A3C;
+    a{
+      text-decoration: none;
+      color: #858377;
+    }
+  }
+}
+
+
+.card-header{
+  span{
+    color: #636057;
+    font-size: 14px;
+  }
+}
+
+.card-footer{
+  h3{
+    font-size: 18px;
+    color: #494846;
+    font-weight: bold;
+  }
+  p.price{
+    font-size: 18px;
+    color: #494846;
+    font-weight: bold;
+  }
+  p.intro{
+    font-size: 16px;
+    color: #858377;
+  }
+  
+  .badge.bg-grey{
+    background-color: #E8E8DB;
+    color: #858377;
+  }
+}
+
+
+
+.accordion{
+
+  .accordion-item{
+    color: #494846;
+    font-size: 14px;
+    
+    .accordion-button{
+      background-color: #fff;
+      color: #494846;
+    }
+    
+      span{
+      background-color: $yellow;
+      padding: 6px;
+      margin-right: 10px;
+      }
+     
+    }
+  }
+
+.card-text{
+    a{
+    color: #FF785E;
+    font-size: 14px;
+  }
+}
+
+.card.comment{
+  width: 100%;
+  img{
+    border: none;
+    width: 60px;
+    margin: 15px;
+  }
+  p{
+    color: #373A3C;
+  }
+}
+
+

@@ -1,0 +1,227 @@
+@charset "UTF-8";
+* {
+  font-family: 'Noto Sans TC','Baloo Tamma 2', cursive, sans-serif;
+}
+
+.btn.btn-yellow {
+  background-color: #FFDF65;
+  color: #636057;
+}
+
+.progress-bar.bg-yellow {
+  background-color: #FFDF65;
+}
+
+.border-3.border-yellow {
+  border-left: 3px solid #FFDF65;
+}
+
+.highlight-text {
+  color: #FFDF65;
+}
+
+.navbar.border-bottom-yellow {
+  border-bottom: 5px solid #FFDF65;
+}
+
+.navbar .logo img {
+  width: 111px;
+  height: 40px;
+}
+
+.navbar .btn {
+  width: 96px;
+  height: 38px;
+  margin-right: 10px;
+}
+
+.navbar .btn-yellow {
+  background-color: #FFDF65;
+}
+
+.modal .modal-header {
+  border-top: 4px solid #FFDF65;
+}
+
+.modal .btn.btn-yellow {
+  background-color: #FFDF65;
+}
+
+.modal input {
+  background-color: #F7F7F7;
+  border: none;
+}
+
+.modal .footer::before {
+  content: '—————————';
+  color: #ddd;
+}
+
+.modal .footer::after {
+  content: '—————————';
+  color: #ddd;
+}
+
+.nav .nav-item {
+  padding: 20px 0;
+}
+
+.nav .nav-item .active {
+  border-bottom: 3px solid #FFDF65;
+}
+
+form {
+  position: relative;
+}
+
+form select.form-select {
+  background-color: #F7F7F7;
+  border: none;
+  color: #999999;
+}
+
+form input.form-control {
+  background-color: #F7F7F7;
+  border: none;
+  color: #999999;
+}
+
+form h3 {
+  padding: 6px;
+  font-size: 24px;
+}
+
+form span.bar {
+  width: 40%;
+  height: 3px;
+  background-color: #FFDF65;
+  position: absolute;
+  top: 105px;
+  left: 0;
+}
+
+form span.bar2 {
+  width: 40%;
+  height: 3px;
+  background-color: #FFDF65;
+  position: absolute;
+  top: 105px;
+  right: 0;
+}
+
+form span.barmobile {
+  width: 35%;
+  height: 3px;
+  background-color: #FFDF65;
+  position: absolute;
+  top: 35px;
+  left: 0;
+}
+
+form span.barmobile2 {
+  width: 35%;
+  height: 3px;
+  background-color: #FFDF65;
+  position: absolute;
+  top: 35px;
+  right: 0;
+}
+
+.right-title {
+  color: #494846;
+  font-size: 20px;
+  font-weight: bold;
+  border-left: 4px solid #FFDF65;
+  border-right: 4px solid #FFDF65;
+}
+
+.card {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.card .card-title img {
+  border: 3px solid #FFDF65;
+}
+
+.card .card-title h2 {
+  font-size: 20px;
+  color: #494846;
+}
+
+.card .card-title h3 {
+  font-size: 16px;
+  color: #373A3C;
+}
+
+.card .card-content {
+  color: #373A3C;
+}
+
+.card .card-content a {
+  text-decoration: none;
+  color: #858377;
+}
+
+.card-header span {
+  color: #636057;
+  font-size: 14px;
+}
+
+.card-footer h3 {
+  font-size: 18px;
+  color: #494846;
+  font-weight: bold;
+}
+
+.card-footer p.price {
+  font-size: 18px;
+  color: #494846;
+  font-weight: bold;
+}
+
+.card-footer p.intro {
+  font-size: 16px;
+  color: #858377;
+}
+
+.card-footer .badge.bg-grey {
+  background-color: #E8E8DB;
+  color: #858377;
+}
+
+.accordion .accordion-item {
+  color: #494846;
+  font-size: 14px;
+}
+
+.accordion .accordion-item .accordion-button {
+  background-color: #fff;
+  color: #494846;
+}
+
+.accordion .accordion-item span {
+  background-color: #FFDF65;
+  padding: 6px;
+  margin-right: 10px;
+}
+
+.card-text a {
+  color: #FF785E;
+  font-size: 14px;
+}
+
+.card.comment {
+  width: 100%;
+}
+
+.card.comment img {
+  border: none;
+  width: 60px;
+  margin: 15px;
+}
+
+.card.comment p {
+  color: #373A3C;
+}
+/*# sourceMappingURL=style.css.map */
